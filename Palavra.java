@@ -2,6 +2,7 @@ public class Palavra implements Rotacao {
 	
 	String texto;
 	boolean n,i,s;
+	int angulo;
 	
 	public void setTexto (String t) {
 		
@@ -29,5 +30,16 @@ public class Palavra implements Rotacao {
 		
 	}
 	
+	public void setAngulo ( int a ) {
+		
+		this.angulo = a;
+		
+	}
+	
+	public int getAngulo () {
+		
+		return this.angulo;
+		
+	}
 }
 	
