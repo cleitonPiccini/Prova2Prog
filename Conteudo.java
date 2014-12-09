@@ -1,12 +1,12 @@
 class Conteudo {
 	
 	Palavra p[100];
-	Imagem i[100];
-	Video v[100];
+	Imagem imagem[100];
+	Video video[100];
 	
 	public void insertTexto (String t) {
 		
-		t= "oi";
+		t= "Texto";
 		p[1] = new Palavra();
 		p[1].setTexto(t);
 		
@@ -15,16 +15,16 @@ class Conteudo {
 	public void insertImagem (String i) {
 		
 		i= "imagem";
-		i[1] = new Imagem();
-		i[1].setImagem(i);
+		imagem[1] = new Imagem();
+		imagem[1].setImagem(i);
 		
 	}
 	
 	public void insetVideo (String v ) {
 		
 		v = "Video";
-		v[1] = new Video();
-		v[1].setVideo(v);
+		video[1] = new Video();
+		video[1].setVideo(v);
 		
 	}
 	

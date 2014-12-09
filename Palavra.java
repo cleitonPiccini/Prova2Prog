@@ -1,4 +1,4 @@
-class Palavra {
+class Palavra implements Rotacao {
 	
 	String texto;
 	boolean n,i,s;
