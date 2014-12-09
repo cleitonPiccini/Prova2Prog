@@ -4,16 +4,20 @@ class Conteudo {
 	Imagem i;
 	Video v;
 	
-	public Palavra insertText (Palavra p) {
+	public Palavra novoText (Palavra p) {
+		
+		p = new Palavra();
 		
 	}
 	
 	public Imagem insertImagem (Imagem i) {
 		
+		i = new Imagem;
 	}
 	
 	public Video insetVideo ( Video v ) {
 		
+		v = new 
 	}
 	
 }
