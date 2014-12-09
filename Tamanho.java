@@ -1,4 +1,4 @@
-class interface Tamanho {
+public interface Tamanho {
 	
 	int altura, largura;
 	
@@ -11,13 +11,13 @@ class interface Tamanho {
 	
 	public int getAltura () {
 		
-		return this.altura;
+		return altura;
 		
 	}
 	
 	public int getLargura () {
 		
-		return this.largura;
+		return largura;
 		
 	}
 

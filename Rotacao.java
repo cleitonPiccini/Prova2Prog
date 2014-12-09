@@ -1,6 +1,6 @@
-class interface Rotacao {
+public interface Rotacao {
 	
-	int angulo;
+	int angulo; 
 	
 	public void setAngulo (int a) {
 		
@@ -10,7 +10,7 @@ class interface Rotacao {
 	
 	public int getAngulo () {
 		
-		return this.angulo;
+		return angulo;
 		
 	}
 	

@@ -1,4 +1,4 @@
-class Video implements Rotacao implements Tamanho {
+public class Video implements Rotacao {
 	
 	String video; // Imagine que seja um video.
 	
@@ -8,7 +8,7 @@ class Video implements Rotacao implements Tamanho {
 		
 	}
 	
-	public int getVideo () {
+	public String getVideo () {
 		
 		return this.video;
 		

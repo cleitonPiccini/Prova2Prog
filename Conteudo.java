@@ -1,8 +1,8 @@
 class Conteudo {
 	
-	Palavra p[100];
-	Imagem imagem[100];
-	Video video[100];
+	Palavra p[] = new Palavra[100];
+	Imagem imagem[] = new Imagem[100];
+	Video video[] = new Video[100];
 	
 	public void insertTexto (String t) {
 		
