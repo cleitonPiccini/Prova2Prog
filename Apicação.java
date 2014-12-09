@@ -1,13 +1,17 @@
 class Aplicacao {
 	
-	Conteudo texto[100];
+	public static void main (String args[]){
 	
-	public Conteudo editaConteudo {
-		
-	}
+		Conteudo texto[100];
 	
-	public Conteudo novoConteudo {
+		public Conteudo editaConteudo {
 		
-	}
+		}
+	
+		public Conteudo novoConteudo {
+			
+			texto[1] = new Conteudo();
+		
+		}
 	
 }

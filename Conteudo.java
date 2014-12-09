@@ -1,23 +1,31 @@
 class Conteudo {
 	
-	Palavra p;
-	Imagem i;
-	Video v;
+	Palavra p[100];
+	Imagem i[100];
+	Video v[100];
 	
-	public Palavra novoText (Palavra p) {
+	public void insertTexto (String t) {
 		
-		p = new Palavra();
+		t= "oi";
+		p[1] = new Palavra();
+		p[1].setTexto(t);
 		
 	}
 	
-	public Imagem insertImagem (Imagem i) {
+	public void insertImagem (String i) {
 		
-		i = new Imagem;
+		i= "imagem";
+		i[1] = new Imagem();
+		i[1].setImagem(i);
+		
 	}
 	
-	public Video insetVideo ( Video v ) {
+	public void insetVideo (String v ) {
 		
-		v = new 
+		v = "Video";
+		v[1] = new Video();
+		v[1].setVideo(v);
+		
 	}
 	
 }
